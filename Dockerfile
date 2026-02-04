@@ -1,4 +1,4 @@
 FROM nginx:latest
-COPY ./default.conf /etc/nginx/conf.d/default.conf
-COPY ./html /usr/share/nginx/html
+COPY ./default_fastapi.conf /etc/nginx/conf.d/default.conf
+COPY ./html /usr/share/nginx/html/
 EXPOSE 80
